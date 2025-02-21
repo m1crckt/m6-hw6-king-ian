@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/struckaxiom.png");
+}
+
+main, nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 24px auto;
+    background-color: #EDEDED;
+    width: 90%;
+    padding: 20px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;
+}
+
+header {
+    background-color: #EDEDED;
+    padding: 40px 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20pt;
+}
+
+header > nav {
+    display: flex;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.link {
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headshot {
+    float: left;
+    padding-right: 25px;
+    margin: 0 20px 10px 0;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+aside {
+    width: 40%;
+    background-color: #fffc56;
+    margin: 24px;
+    padding: 30px;
+}
+
+aside img {
+    box-shadow: 3px 3px 3px black;
+    width: 55px;
+    margin-right: 9px;
+}
+
+/* .box-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+*/
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 24px auto;
+}
